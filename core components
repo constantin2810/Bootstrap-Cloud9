@@ -122,7 +122,55 @@
             </div>
         </section>
         <!-- /.features -->
-    </article>
+        <hr>
+  
+        <!-- Monthly favorites -->
+        <section class="Monthly favorites">
+            <h2 class="text-uppercase">Monthly favorites:</h2>
+            <blockquote class="Monthly favorites">
+                <p>Top 5 Whisky Brands Selection Of The Month </p>
+                <footer>WHISKY on <cite title="whisky">WHISKY.MY</cite></footer>
+            </blockquote>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Origin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>The Macallan 18 Year Old Sherry Oak 2018 Released</td>
+                    <td>Scotland</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>HIGHLAND PARK 18 Year Old</td>
+                    <td>Scotland</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Glenfarclas 15 Year Old</td>
+                    <td>Scotland</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Lagavulin 16 Year Old</td>
+                    <td>Scotland</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>BRUICHLADDICH The Classic Laddie Scottish Barley</td>
+                    <td>Scotland</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </section>
+        <!-- /.Monthly favorites -->
+    </article> 
 </body>
 
 </html>
