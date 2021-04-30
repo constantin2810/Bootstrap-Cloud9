@@ -2,8 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+   padding-left: 0;
+   padding-right: 0;
+}
 
+.site-wide-alert {
+  color: #544600;
+  background-color: #eec802;
+  border-color: #eec802;
+  padding: 5px 15px;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 0;
 }
 
 .callout-container {
@@ -40,32 +51,42 @@ body {
 
 }
 
-/* Block dividers */
+/* Navbar */
 
-.block-divider {
-  width: 75px;
-  height: 5px;
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+}
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color:rgba(0,0,0,0.25);
+}
+.navbar .navbar-toggler {
   border: 0;
 }
-
-.block-divider--orange {
-  background-color: #f05f40;
+.navbar .navbar-brand {
+  font-weight: bold;
 }
-
-.block-divider--short {
-  width: 35px;
+.navbar .navbar-nav a {
+  font-weight: bold;
 }
-
 /* Jumbotron */
 
 .jumbotron {
   background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
   color: white;
   font-weight: bold;
   margin-bottom: 30px;
+  color: white;
 }
 
 .jumbotron .lead {
@@ -77,6 +98,23 @@ body {
   font-size: 60%;
   font-style: italic;
   color: #d0d0d0;
+}
+
+/*Block dividers */
+
+.block-divider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+}
+
+.block-divider--orange {
+  background-color: #f05f40;
+}
+
+.block-divider--short {
+  width: 35px;
 }
 
 /* Buttons */
@@ -99,4 +137,5 @@ body {
 .btn--red:active:focus {
   background-color: #df4929;
   border-color: #df4929;
+  color: white;
 }
